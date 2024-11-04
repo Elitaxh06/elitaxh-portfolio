@@ -1,0 +1,146 @@
+*{
+    color: #dde1e7;
+    color: #bfc7cf;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hed ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#titulo{
+    margin-top: .6em;
+    font-size: 2.7em;
+    margin-right: 13%;
+    text-decoration: none;
+}
+
+
+
+#titulo h1:hover{
+    color: #0077B5;
+}
+
+#hed{
+    margin-top: 3em;
+}
+
+#hed ul li{
+    list-style:none;
+    margin-right: 3em;
+}
+
+#hed ul li a:hover{
+    color: #0077B5;
+}
+
+#hed ul a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#col1{
+    margin-top: 4em;
+}
+
+#myText{
+    width: 50%;
+    height: auto;
+    
+    margin-left: 25%;
+}
+
+#myText h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+#myText h1:hover{
+    color: #0077B5;
+}
+
+#myText p{
+    font-size: 1.2em;
+    
+    margin-top: 2em;
+}
+
+#myText h1{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+
+img{
+    width: 1em;
+    height: 1em;
+    margin-left: .3em;
+    margin-bottom: .5em;
+}
+
+#myContact{
+    margin-top: 2em;
+    font-size: 1.1em;
+    display: inline-flexbox;
+    
+}
+
+
+
+    
+
+a:hover{
+    color:#0077B5;
+    color: #fff;
+}
+span{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) and (min-width: 430px){
+    #hed {
+        display: block;
+        text-align: center;
+        align-items: center;
+
+    }
+    #titulo h1{
+        font-size: .8em;
+    }
+
+    #hed {
+        margin-top: 1em;
+        font-size: .7em;
+    }
+
+}
+
+@media (max-width: 430px){
+    header {
+        flex-direction: column;
+    }
+    
+    #titulo h1{
+        font-size: .7em;
+    }
+
+    #hed {
+        margin-top: .3em;
+        font-size: .7em;
+    }
+
+}
