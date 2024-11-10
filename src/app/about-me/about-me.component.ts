@@ -1,25 +1,14 @@
 import { Component } from '@angular/core';
-import { NgIf, NgFor } from '@angular/common';
+//import { NgIf, NgFor } from '@angular/common';
 import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-about-me',
   standalone: true,
-  imports: [NgIf, NgFor, RouterLink],
+  imports: [],
   template: `
     <div class="container-fluid">
 
-<header col-md-12>
-  <a id="titulo" routerLink="'/'">
-    <h1 class="text wrab">{{titulo}} P.</h1>
-  </a>
-  <nav id="hed">
-    <ul>
-      <li><a >About Me</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contactMe">Contact Me</a></li>
-    </ul>
-  </nav>
-</header>
+
 
 <!-- Empieza la primera columna -->
   <div class="row">
@@ -34,9 +23,9 @@ import { RouterLink } from '@angular/router';
         <div id="myContact">
           
           <a id="contact" target="_blank" href="mailto:pizarroteb06@outlook.com">Contact me via Email 📧</a> <br>
-          <a id="ver"  href="assets/images/CVEsteban.pdf" target="_blank">View CV 👀
+          <a id="ver"  href="assets/images/CvEstebanEnglish.pdf" target="_blank">View CV 👀
             </a> <br>
-            <a id="des"  href="assets/images/CVEsteban.pdf" download="assets/images/CvEsteban1.pdf">
+            <a id="des"  href="assets/images/CvEstebanEnglish.pdf" download="assets/images/CvEsteban1.pdf">
               Download CV <img src="assets/images/icono.png" alt="Imagen de logo de descarga">
             </a>
         </div>
