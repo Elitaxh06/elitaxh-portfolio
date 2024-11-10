@@ -33,7 +33,7 @@ import { RouterLink } from '@angular/router';
         </p>
         <div id="myContact">
           
-          <a id="contact" target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=eliaspizarro11@gmail.com">Contact me via Email 📧</a> <br>
+          <a id="contact" target="_blank" href="mailto:pizarroteb06@outlook.com">Contact me via Email 📧</a> <br>
           <a id="ver"  href="assets/images/CVEsteban.pdf" target="_blank">View CV 👀
             </a> <br>
             <a id="des"  href="assets/images/CVEsteban.pdf" download="assets/images/CvEsteban1.pdf">
