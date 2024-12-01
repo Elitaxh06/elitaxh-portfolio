@@ -95,6 +95,10 @@
                 <a href="{{pro.url}}" target="_blank">
                   <button class="button-name" role="button">View Project</button>
                 </a>
+                
+                <a target="_blank" *ngIf="pro.code" href="{{pro.code}}">
+                  <button class="button-name" style="margin-left: 5px;">View Code</button>
+                </a>
               </div> <!-- cierre del div para el boton -->
             </div> <!-- cierre del card body -->
             <div class="card-footer"> <!-- empieza el card footer-->

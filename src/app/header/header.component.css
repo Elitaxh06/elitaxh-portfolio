@@ -27,6 +27,8 @@ header{
 
 #titulo h1:hover{
     color: #0077B5;
+    scale: 1.1;
+    transition: all .3s ease;
 }
 
 #hed{
@@ -38,8 +40,15 @@ header{
     margin-right: 3em;
 }
 
+#hed ul li:hover{
+    scale: 1.2;
+    transition: all .3s ease;
+}
+
 #hed ul li a:hover{
     color: #0077B5;
+    
+
 }
 
 #hed ul a {

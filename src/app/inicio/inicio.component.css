@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-/* From Uiverse.io by satyamchaudharydev */ 
+
 .button {
   position: relative;
   transition: all 0.3s ease-in-out;
@@ -39,7 +39,7 @@ a{
     text-decoration: none;
 }
 
-/* From Uiverse.io by Custyyyy */ 
+ 
 .button-name {
   align-items: center;
   appearance: none;
@@ -151,6 +151,11 @@ a{
     box-shadow: none;
     
     margin-right: 1.7em;
+}
+
+#redes a:hover{
+    scale: 1.1;
+    transition: all .3s ease;
 }
 
 #instagram:hover{
